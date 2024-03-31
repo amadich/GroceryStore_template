@@ -81,3 +81,38 @@ article #section_main div .categorylist li:hover {
       background-color: #a3d9a5;
       padding: 20px;
 }
+
+
+/* Article 2 */
+article section  #Banner_Contact {
+      
+      margin: auto;
+      width: 85%;
+      height: 300px;
+      
+      border-radius: 10px;
+      background-color: rgb(51, 173, 51);
+}
+#Banner_element_contetnt {
+      display: flex;
+      justify-content: space-between;
+}
+#Banner_Contact #img_bike_contact {
+      margin-top: -5em;
+}
+.txt_order_article_1 {
+      font-size: 50px;
+      color: #ffffffff;
+      font-family: fantasy;
+      text-align: center;
+      text-transform: uppercase;
+      margin-left: 50px;
+
+}
+#contact_med_form {
+      color: #fff;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: 700;
+      margin-top: -20px;
+      margin-left: 20px;
+}

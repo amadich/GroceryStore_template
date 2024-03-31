@@ -2,12 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="shortcut icon" href="./public/assets/favicon.png" type="image/x-icon">
-   <link rel="stylesheet" href="./public/assets/css/globale_main.css">
-   <link rel="stylesheet" href="./public/assets/css/globale_navbar.css">
-   <link rel="stylesheet" href="./public/assets/css/globale_article.css">
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./public/assets/favicon.png" type="image/x-icon" />
+   <link rel="stylesheet" href="./public/assets/css/globale_main.css" />
+   <link rel="stylesheet" href="./public/assets/css/globale_navbar.css" />
+   <link rel="stylesheet" href="./public/assets/css/globale_article.css" />
+   <link rel="stylesheet" href="./public/assets/css/globale_section.css" />
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Grocery Store | By Mohamed Jeridi</title>
 </head>
 <body>
@@ -22,16 +23,16 @@
             </div>
             <ul>
                <li><a href="#" style="color : rgb(9, 172, 17);" >Home</a></li>
-               <li><a href="#">Products</a></li>
+               <li><a href="#categorylist_div_main">Products</a></li>
                <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="#contact_main">Contact</a></li>
             </ul>
          </nav>
       </header>
 
       <!-- Main Content -> NavBar ( Banner )   -->
 
-      <nav>
+      <nav style="padding-top: 10%;">
         
            <marquee direction="left"><span style="color: green" >50% offer of the week:</span> Get amazing discounts on a wide range of products! Shop now and save big! 🛒  </marquee> <br>
          <div class="banner" >
@@ -52,21 +53,241 @@
             </div>
          </div>
          <section id="section_main">
-            <h2>Shop by Category</h2>
-            <div class="categorylist_div">
-               <ul class="categorylist" >
-                  <li> <img src="./public/assets/images/icons/vegetable.png"  draggable="false" alt="vegetable" width="50"> <h3>Vegetable</h3> </li>
-                  <li> <img src="./public/assets/images/icons/fruit.png"  draggable="false" alt="fruit.png" width="50"> <h3>Fruit</h3> </li>
-                  <li> <img src="./public/assets/images/icons/drink.png"  draggable="false" alt="drink.png" width="50"> <h3>Drink</h3> </li>
-                  <li> <img src="./public/assets/images/icons/bread.png"  draggable="false" alt="bread.png" width="50"> <h3>Bread</h3> </li>
-                  <li> <img src="./public/assets/images/icons/fish.png"  draggable="false" alt="fish.png" width="50"> <h3>Fish</h3> </li>
-                  <li> <img src="./public/assets/images/icons/chicken.png"  draggable="false" alt="chicken.png" width="50"> <h3>Chicken</h3> </li>
-               </ul>
+            <!-- category list | SHOP BY CATEGORY -->
+            <div>
+                  <h2>Shop by Category</h2>
+               <div class="categorylist_div">
+                  <div id="categorylist_div_main"></div>
+                  <ul class="categorylist" >
+                     <li> <img src="./public/assets/images/icons/vegetable.png"  draggable="false" alt="vegetable" width="50"> <h3>Vegetable</h3> </li>
+                     <li> <img src="./public/assets/images/icons/fruit.png"  draggable="false" alt="fruit.png" width="50"> <h3>Fruit</h3> </li>
+                     <li> <img src="./public/assets/images/icons/drink.png"  draggable="false" alt="drink.png" width="50"> <h3>Drink</h3> </li>
+                     <li> <img src="./public/assets/images/icons/bread.png"  draggable="false" alt="bread.png" width="50"> <h3>Bread</h3> </li>
+                     <li> <img src="./public/assets/images/icons/fish.png"  draggable="false" alt="fish.png" width="50"> <h3>Fish</h3> </li>
+                     <li> <img src="./public/assets/images/icons/chicken.png"  draggable="false" alt="chicken.png" width="50"> <h3>Chicken</h3> </li>
+                  </ul>
+                  
+               </div>
+            </div>
+            
+
+         
+            <!-- category list | OUR POPULAR PRODUCTS -->
+            <div>
+               <div id="categorylist_div" >
+                  <h2>Our Popular Products</h2>
+               </div>
+               <!-- Products-Section TAP 1 -->
+               <div class="products_section_1">
+                   <!-- Product 1 -->
+                   <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/pepper.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Pepper</h3>
+                        <p> Price: $1.99 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                   </div>
+                   <!-- Product 2 -->
+                   <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/tomatoes.png); background-position: center center; background-repeat: no-repeat; background-size: 90%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Tomatoes</h3>
+                        <p> Price: $0.99 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                   </div>
+
+                   <!-- Product 3 -->
+                   <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/carrot.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Carrot</h3>
+                        <p> Price: $1.39 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                   </div>
+
+                   <!-- Product 4 -->
+                   <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Grains/apples.png); background-position: center center; background-repeat: no-repeat; background-size: 80%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Apples</h3>
+                        <p> Price: $1.99 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                   </div>
+
+
+                   <!-- Product 5 -->
+                   <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Drinks/kiwi-fruit-juice.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Kiwi Fruit Juice</h3>
+                        <p> Price: $1.39 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                   </div>
+
+                   <!-- END Products -->
+               </div>
             </div>
 
-            <div id="categorylist_div" >
-               <h2>Our Popular Products</h2>
+
+            <!-- Products-Section TAP 2 -->
+
+            <div class="products_section_1">
+               <!-- Product 1 -->
+               <div class="product_1" >
+                 <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/onion.png); background-position: center center; background-repeat: no-repeat; background-size: 80%;"></div>
+                 <div class="product_1_disc" >
+                    <h3>Onion</h3>
+                    <p> Price: $1.99 </p>
+                    <button>Add to Cart</button>
+                 </div>
+               </div>
+               <!-- Product 2 -->
+               <div class="product_1" >
+                 <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/Potatos.png); background-position: center center; background-repeat: no-repeat; background-size: 90%;"></div>
+                 <div class="product_1_disc" >
+                    <h3>Potatos</h3>
+                    <p> Price: $0.99 </p>
+                    <button>Add to Cart</button>
+                 </div>
+               </div>
+
+               <!-- Product 3 -->
+               <div class="product_1" >
+                 <div class="product_1_object" style="background-image: url(./public/assets/images/products/Grains/citron.png); background-position: center center; background-repeat: no-repeat; background-size: 90%;"></div>
+                 <div class="product_1_disc" >
+                    <h3>Citron</h3>
+                    <p> Price: $1.39 </p>
+                    <button>Add to Cart</button>
+                 </div>
+               </div>
+
+               <!-- Product 4 -->
+               <div class="product_1" >
+                 <div class="product_1_object" style="background-image: url(./public/assets/images/products/Grains/banana.png); background-position: center center; background-repeat: no-repeat; background-size: 80%;"></div>
+                 <div class="product_1_disc" >
+                    <h3>Banana</h3>
+                    <p> Price: $1.99 </p>
+                    <button>Add to Cart</button>
+                 </div>
+               </div>
+
+
+               <!-- Product 5 -->
+               <div class="product_1" >
+                 <div class="product_1_object" style="background-image: url(./public/assets/images/products/Drinks/Strawberry-juice.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                 <div class="product_1_disc" >
+                    <h3>Strawberry Juice</h3>
+                    <p> Price: $1.39 </p>
+                    <button>Add to Cart</button>
+                 </div>
+               </div>
+
+               <!-- END Products -->
+           </div>
+        </div>
+
+
+
+                  <!-- Products-Section TAP 3 -->
+                  <div class="products_section_1">
+                     <!-- Product 1 -->
+                     <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/pepper.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Pepper</h3>
+                        <p> Price: $1.99 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                     </div>
+                     <!-- Product 2 -->
+                     <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/tomatoes.png); background-position: center center; background-repeat: no-repeat; background-size: 90%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Tomatoes</h3>
+                        <p> Price: $0.99 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                     </div>
+
+                     <!-- Product 3 -->
+                     <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Vegetables/carrot.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Carrot</h3>
+                        <p> Price: $1.39 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                     </div>
+
+                     <!-- Product 4 -->
+                     <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Grains/apples.png); background-position: center center; background-repeat: no-repeat; background-size: 80%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Apples</h3>
+                        <p> Price: $1.99 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                     </div>
+
+
+                     <!-- Product 5 -->
+                     <div class="product_1" >
+                     <div class="product_1_object" style="background-image: url(./public/assets/images/products/Drinks/kiwi-fruit-juice.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                     <div class="product_1_disc" >
+                        <h3>Kiwi Fruit Juice</h3>
+                        <p> Price: $1.39 </p>
+                        <button>Add to Cart</button>
+                     </div>
+                     </div>
+
+                     <!-- END Products -->
+               </div>
             </div>
+
+         </section>
+      </article>
+
+
+      <article style="margin-top: 12%;" id="contact_main">
+         <section>
+            <div id="Banner_Contact">
+                <div id="Banner_element_contetnt" >
+                           <div>
+                              <div><img src="./public/assets/images/cooltext/cooltext454990005709358_ordertxt.png" draggable="false" alt="Text_Order_img"></div>
+                              <div><img src="./public/assets/images/cooltext/cooltext454990104837210_myname_space.png" draggable="false" style=" margin-left: 50px; position: absolute;" alt="Text_Order_img_name"></div>
+                           </div>
+                           <div>
+                              <img src="./public/assets/images/Bike_me_contact.png" id="img_bike_contact" alt="Logo_contact_bike" width="350" draggable="false" />
+                           </div>
+                </div>
+
+                <!-- Contact Form -->
+               <div id="contact_med_form"> 
+                  
+                 
+                     <div style="display: inline-flex; align-items: center;">
+                           <div style="display: inline-flex; align-items: center">
+                              <img src="./public/assets/images/icons/phone-call.png" alt="ico_phone" />
+                              <p style="margin-left: 20px;" > (+216) 50 338 753 </p>
+                           </div>
+                           
+                        <div style="display: inline-flex; align-items: center; margin-left: 20px;">
+                              <img src="./public/assets/images/icons/mail.png" alt="ico_mail" width="24" />
+                              <p style="margin-left: 20px;"> jeridimohamed@fstbz-u.kairouan.tn </p>
+                        </div>
+                     </div>
+                  
+
+
+               </div>
+
+            </div>
+            
 
          </section>
       </article>
