@@ -7,11 +7,15 @@
    <link rel="stylesheet" href="./public/assets/css/globale_navbar.css" />
    <link rel="stylesheet" href="./public/assets/css/globale_article.css" />
    <link rel="stylesheet" href="./public/assets/css/globale_section.css" />
+   
    <meta charset="UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Grocery Store | By Mohamed Jeridi</title>
 </head>
 <body>
+
+   <!-- Header -->
+
       <header>
          <div id="Logomain" ></div>
          <!-- Search input -->
@@ -30,6 +34,36 @@
          </nav>
       </header>
 
+
+
+      <!-- 
+               Create Cart to buy element 
+               i well removed it ( display: none; )
+               so now let's start to create the cart buy products
+             -->
+
+            <div id="cart_addtobuy_global">
+                              
+               <div id="cart_addtobuy">
+   
+                  <div id="cart_addtobuy_item">
+                     <img src="./public/assets/images/products/Drinks/Orange-juice.png" id="cart_image_product" alt="img_product" >
+                  </div>
+
+                  <div id="cart_addtobuy_disc">
+                     <img src="./public/assets/images/icons/cancel.png" id="close_cart_product" onclick="closeProduct()" alt="close_cart" width="30" height="30">
+                     <h1 id="cart_product_name"> Product Name </h1>
+                     <h3> Prix : <span id="cart_product_price"> $1.99 </span> </h3>
+                     <input type="number" value="1" min="1" max="99">
+                     <button>ADD TO CART</button>
+                  </div>
+               </div>
+            </div>
+
+
+          <!-- Finsh create cart products -->
+      
+
       <!-- Main Content -> NavBar ( Banner )   -->
 
       <nav style="padding-top: 10%;">
@@ -42,6 +76,9 @@
             </div>
          </div>
       </nav>
+
+
+      
 
 
       <!-- Main Content -> Article Section -->
@@ -73,6 +110,11 @@
 
          
             <!-- category list | OUR POPULAR PRODUCTS -->
+
+
+            
+            
+
             <div>
                <div id="categorylist_div" >
                   <h2>Our Popular Products</h2>
@@ -85,7 +127,7 @@
                      <div class="product_1_disc" >
                         <h3>Pepper</h3>
                         <p> Price: $1.99 </p>
-                        <button>Add to Cart</button>
+                        <button onclick="showProduct('./public/assets/images/products/Vegetables/pepper.png' , 'Pepper' , '$1.99',1.99)">Add to Cart</button>
                      </div>
                    </div>
                    <!-- Product 2 -->
@@ -291,6 +333,11 @@
 
          </section>
       </article>
+
+
+   <!---->
+      <script src="./public/assets/js/Cart.js"></script>
+   <!---->
 
 </body>
 </html>
