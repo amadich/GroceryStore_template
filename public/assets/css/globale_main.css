@@ -98,7 +98,7 @@ header nav {
 
 /* Create Caert add to buy */
 #cart_addtobuy_global {
-   display: block; /* DISABLE OR ACTIVE ( AUTO - USER ->  OPEN/CLOSE ) */
+   display: none; /* DISABLE OR ACTIVE ( AUTO - USER ->  OPEN/CLOSE ) */
    width: 100%;
    height: 100%;
    position: fixed;
@@ -120,7 +120,7 @@ header nav {
    margin-top: 10%;
    width: 800px;
    height: 400px;
-   background-color: rgba(248, 243, 216, 0.781);
+   background-color: rgba(248, 243, 216, 0.856);
    border-radius: 10px;
 }
 
@@ -136,11 +136,12 @@ header nav {
    margin: auto;
    margin-top: 20%;
    border-radius: 10px;
-   width: 50%;
+   width: 55%;
    height: 50%;
    
    /*border: 1px solid black;*/
-   background-color: #d0e9769f;
+   padding: 1em;
+   background-color: #bdb2749f;
 }
 
 #cart_addtobuy_disc {
