@@ -80,7 +80,13 @@ header nav {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
 }  
+.shoppingcart_div img:hover {
+    transform: rotate(-10deg);
+}
+
 .shoppingcart_div span {
       display: inline-block;
       font-family: 'Roboto', sans-serif;
@@ -97,6 +103,8 @@ header nav {
 
 
 /* Create Caert add to buy */
+
+
 #cart_addtobuy_global {
    display: none; /* DISABLE OR ACTIVE ( AUTO - USER ->  OPEN/CLOSE ) */
    width: 100%;
@@ -232,6 +240,81 @@ header nav {
 
 }
 
+
+/* Create SideBar Cart ADD LIST */
+
+#sidebar_addtocart {
+   position: fixed;
+   z-index: +1000;
+   width: 30%;
+   height: 100%;
+   background-color: rgb(231, 228, 202);
+   transform: translateX(-100%);
+   transition: 1s;
+   overflow-y: auto;
+
+}
+
+/*#sidebar_addtocart {
+   transform: translateX(0%);
+}*/
+
+#setobject_products {
+   display: block;
+   margin-top: 10%;
+   overflow-y: auto;
+}
+
+#element_obj_product {
+   display: inline-flex;
+   margin: auto;
+   width: 80%;
+   height: 100px;
+   border: 1px solid #333;
+   border-radius: 10px;
+   overflow-y: auto;
+
+}
+
+#element_obj_product #element_obj_product_img {
+   width: 50%;
+   height: 100%;
+   border-right: 1px solid #333;
+   background-size: 50%;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+#element_obj_product #element_obj_product_disc {
+
+   width: 50%;
+   height: 100%;
+
+}
+#element_obj_product #element_obj_product_disc h3 { 
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   color: #333;
+   text-transform: uppercase;
+   text-decoration: none;
+   transition: 0.2s;
+}
+#element_obj_product #element_obj_product_disc p { 
+   
+   margin-top: -10px;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-decoration: none;
+   transition: 0.2s;
+}
+#fix_qt_sidecart {
+   margin-top: -20px;
+   font-size: small;
+   color: seagreen;
+}
 /* */
 
 
