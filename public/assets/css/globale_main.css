@@ -261,6 +261,8 @@ header nav {
 
 #setobject_products {
    display: block;
+   margin: auto;
+   text-align: center;
    margin-top: 10%;
    overflow-y: auto;
 }
