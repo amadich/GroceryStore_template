@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="shortcut icon" href="../../public/assets/favicon.png" type="image/x-icon" />
+   <link rel="stylesheet" href="../../public/assets/css/globale_main.css">
+   <link rel="stylesheet" href="../../public/assets/css/globale_article.css" />
+   <link rel="stylesheet" href="../../public/assets/css/globale_section.css" />
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Grocery Store | By Mohamed Jeridi</title>
+</head>
+<body>
+   <!-- Header -->
+
+   <header>
+      <a href="/"><div id="Logomain" ></div></a>
+      <!-- Search input -->
+      <input type="text" placeholder="Search . . ." class="search_input" >
+      <nav>
+         <div class="shoppingcart_div" >
+            <img src="../../public/assets/images/icons/shopping-cart.png" alt="shopping-cart" width="30" onclick="showSidebarProducts()">
+            <span id="nb_products">0</span>
+         </div>
+         <ul>
+            <li><a href="/" style="color : rgb(9, 172, 17);" >Home</a></li>
+            <li><a href="#categorylist_div_main">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#contact_main">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <!-- End Header -->
+
+
+   <!-- 
+               Create Cart to buy element 
+               i well removed it ( display: none; )
+               so now let's start to create the cart buy products
+             -->
+
+             <div id="cart_addtobuy_global">
+                              
+               <div id="cart_addtobuy">
+   
+                  <div id="cart_addtobuy_item">
+                     <img src="../../public/assets/images/products/Drinks/Orange-juice.png" id="cart_image_product" alt="img_product" >
+                  </div>
+
+                  <div id="cart_addtobuy_disc">
+                     <img src="../../public/assets/images/icons/cancel.png" id="close_cart_product" onclick="closeProduct()" alt="close_cart" width="30" height="30">
+                     <h1 id="cart_product_name"> Product Name </h1>
+                     <h3> Prix : $<span id="cart_product_price">1.99</span> </h3>
+                     <input type="number" value="1" id="value_nb_products" min="1" max="99">
+                     <button  id="addtocart_btn">ADD TO CART</button>
+
+                     <p>
+                        You can choose the quantity you want to order for this purpose. If you have an inquiry about something, do not hesitate to contact us
+                     </p>
+
+                  </div>
+               </div>
+            </div>
+
+
+          <!-- Finsh create cart products -->
+
+
+
+          <!-- Create SideBar Cart Add to List Products  -->
+          
+          <div id="sidebar_addtocart">
+            <img src="../../public/assets/images/Wood_products_me.png" alt="Wood_products_me" width="200" style=" display: block; margin: auto; "> 
+            <div id="setobject_products"></div>
+         </div>
+
+         <!-- End SideBar Cart Add to List Products -->
+
+
+         <!-- Offer Content -> Article Section -->
+
+         <article style="padding-top: 10%;">
+            <section id="section_main">
+               <!-- category list | OUR POPULAR PRODUCTS -->
+
+
+            
+            
+
+                  <div>
+                     <div id="categorylist_div" >
+                        <h2 style="background-color: rgba(115, 255, 0, 0.486); color: black;">Offers 50% Popular Products</h2>
+                     </div>
+                     <!-- Products-Section TAP 1 -->
+                     <div class="products_section_1">
+                        <!-- Product 1 -->
+                        <div class="product_1" >
+                           <div class="product_1_object" style="background-image: url(../../public/assets/images/products/Offers/morning-coffee-with-croissant.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                           <div class="product_1_disc" >
+                              <h3>Morning Coffee With Croissant</h3>
+                              <p> Price: $4.99 </p>
+                              <button onclick="showProduct('../../public/assets/images/products/Offers/morning-coffee-with-croissant.png' , 'Morning Coffee With Croissant' , '4.99',4.99)">Add to Cart</button>
+                           </div>
+                        </div>
+                        <!-- Product 2 -->
+                        <div class="product_1" >
+                           <div class="product_1_object" style="background-image: url(../../public/assets/images/products/Offers/R_cake.png); background-position: center center; background-repeat: no-repeat; background-size: 90%;"></div>
+                           <div class="product_1_disc" >
+                              <h3>Cupcake filled with chocolate</h3>
+                              <p> Price: $2.99 </p>
+                              <button onclick="showProduct('../../public/assets/images/products/Offers/R_cake.png','Cupcake filled with chocolate','2.99',2.99)">Add to Cart</button>
+                           </div>
+                        </div>
+
+                        <!-- Product 3 -->
+                        <div class="product_1" >
+                           <div class="product_1_object" style="background-image: url(../../public/assets/images/products/Offers/Yeast-cake-for-tu-bishvat.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                           <div class="product_1_disc" >
+                              <h3>Yeast Cake For Tu-Bishvat</h3>
+                              <p> Price: $7.39 </p>
+                              <button onclick="showProduct('../../public/assets/images/products/Offers/Yeast-cake-for-tu-bishvat.png','Yeast Cake For Tu-Bishvat','7.39',7.39)">Add to Cart</button>
+                           </div>
+                        </div>
+
+                        <!-- Product 4 -->
+                        <div class="product_1" >
+                           <div class="product_1_object" style="background-image: url(../../public/assets/images/products/Offers/naleśniki_z_białym_makiem.png); background-position: center center; background-repeat: no-repeat; background-size: 80%;"></div>
+                           <div class="product_1_disc" >
+                              <h3>PanCakes With WhitePoppy Seeds</h3>
+                              <p> Price: $8.99 </p>
+                              <button onclick="showProduct('../../public/assets/images/products/Offers/naleśniki_z_białym_makiem.png','PanCakes With WhitePoppy Seeds','8.99',8.99)">Add to Cart</button>
+                           </div>
+                        </div>
+
+
+                        <!-- Product 5 -->
+                        <div class="product_1" >
+                           <div class="product_1_object" style="background-image: url(../../public/assets/images/products/Offers/southern-style-chicken-fried-chicken_1_large.png); background-position: center center; background-repeat: no-repeat; background-size: 100%;"></div>
+                           <div class="product_1_disc" >
+                              <h3>Southern Style Chicken Fried Large</h3>
+                              <p> Price: $7.59 </p>
+                              <button onclick="showProduct('../../public/assets/images/products/Offers/southern-style-chicken-fried-chicken_1_large.png','Southern Style Chicken Fried Large','7.59',7.59)">Add to Cart</button>
+                           </div>
+                        </div>
+
+                        <!-- END Products -->
+                     </div>
+                  </div>
+            </section>
+         </article>
+
+
+
+   <script src="../../public/assets/js/Cart.js"></script>
+   <script src="../../public/assets/js/ProductsSidebar.js"></script>
+
+</body>
+</html>
