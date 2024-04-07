@@ -1,0 +1,72 @@
+/* Footer */
+footer {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   margin-top: 10%;
+   padding: 0;
+ }
+ 
+ /* Style the main container of the footer */
+ #footer_main {
+   background-color: #01410aa4;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   color: #fff;
+   padding: 40px 20px;
+ }
+ 
+ /* Style the content inside the main container */
+ #footer_main_content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ 
+ /* Style the sections inside the footer */
+ #footer_main_content > div {
+   width: calc(33.333% - 20px);
+   max-width: 300px;
+ }
+
+ /* Style headings inside footer */
+footer h1 {
+   font-size: 20px;
+   margin-bottom: 15px;
+ }
+ 
+ /* Style paragraphs inside footer */
+ footer p {
+   font-size: 14px;
+   line-height: 1.5;
+   margin-bottom: 10px;
+ }
+ 
+ /* Style links inside footer */
+ footer a {
+   color: #fff;
+   text-decoration: none;
+   transition: color 0.3s ease;
+ }
+ 
+ footer a:hover {
+   color: #ffcc00;
+ }
+ 
+ /* Style the list inside footer */
+ footer ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ /* Style list items inside footer */
+ footer li {
+   margin-bottom: 10px;
+ }
+
+ /* Add some spacing */
+@media (max-width: 768px) {
+   #footer_main_content > div {
+     width: 100%;
+     margin-bottom: 20px;
+   }
+ }
