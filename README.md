@@ -10,4 +10,8 @@ The website is designed to be fully responsive, adapting to different screen siz
 In addition to the frontend design, the website also includes a powerful backend system that allows the store owner to manage inventory, track sales, and handle orders. The backend system is built with PHP and MySQL, ensuring that the website is secure and reliable.
 Overall, our Grocery Store Template is the perfect solution for anyone looking to build an online store for fresh produce. It is easy to customize, fast, and secure, making it an excellent choice for both small and large businesses.
 
+###
+ ![image](https://github.com/amadich/GroceryStore_template/assets/74735976/e762bbdf-52dc-4f02-a07b-cc60999154b4)
+
+
 Dont Forget to add Star ⭐
