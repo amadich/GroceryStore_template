@@ -73,7 +73,7 @@ header nav {
    align-items: center;
    width: 90%;
    height: 80px;
-   border: 1px solid #888;
+   border-bottom: 1px solid #888;
    border-radius: 10px;
    margin-top: 10px;
    transition: 0.4s;
@@ -88,7 +88,7 @@ header nav {
 .content_products .product_setsearch_img {
    width: 100px;
    height: 80px;
-   border-radius: 10px;
+   /*border-radius: 10px;*/
    /*border: 1px solid #333;*/
    border-right: 1px solid #888;
    float: left;
