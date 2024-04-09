@@ -47,8 +47,81 @@ header nav {
    background-size: cover;
 }
 
+/* Search Container */
+.container_search {
+     position: relative;
+}
+
+.content_products {
+   position: fixed;
+   width: 300px;
+   height: 0px;
+   border-radius: 10px;
+   background-color: rgb(228, 225, 225);
+   margin-top: 1%;
+   overflow: auto;
+   transition: 0.6s;
+}
+/*.content_products:hover {
+   height: 450px;
+   transition: 0.6s;
+}*/
+
+.content_products .product_setsearch {
+   display: flex;
+   margin: auto;
+   align-items: center;
+   width: 90%;
+   height: 80px;
+   border: 1px solid #888;
+   border-radius: 10px;
+   margin-top: 10px;
+   transition: 0.4s;
+   cursor: pointer;
+
+}
+.content_products .product_setsearch:hover {
+   background-color: #ddce7a;
+   transition: 0.4s;
+}
+
+.content_products .product_setsearch_img {
+   width: 100px;
+   height: 80px;
+   border-radius: 10px;
+   /*border: 1px solid #333;*/
+   border-right: 1px solid #888;
+   float: left;
+   margin-right: 10px;
+   background-image: url(../images/products/Drinks/Apple-Juice.png);
+   /*background-color: rgb(228, 221, 221);*/
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 70%;
+}
+.product_setsearch_disc {
+   width: 200px;
+   height: 70px;
+   overflow: auto;
+}
+.product_setsearch_disc h3 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: large;
+   color: #333;
+   text-transform: uppercase;
+   text-decoration: none;
+   overflow: hidden;
+   transition: 0.2s;
+}
+.content_products a {
+   text-decoration: none;
+}
+
 .search_input  {
-    width: 30%;
+    /*width: 30%;*/
+    position: relative;
+    z-index: +1;
     padding: 10px;
     border: 1px solid #888;
     border-radius: 50px;
@@ -62,7 +135,7 @@ header nav {
     transition: 0.4s;
 }
 .search_input:focus{
-   width: 35%;
+   /*width: 35%;*/
    background-position: 10% 50%;
    text-align: center;
 }
