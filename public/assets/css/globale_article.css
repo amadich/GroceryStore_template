@@ -56,7 +56,7 @@ article section h2:hover {
       text-align: center;
 
 }
-
+.categorylist a { text-decoration: none; }
 article #section_main div .categorylist {
       display: inline-flex;
       width: 100%;

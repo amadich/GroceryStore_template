@@ -94,6 +94,36 @@
       "name": "Tomatoes",
       "image": "/public/assets/images/products/Vegetables/tomatoes.png",
       "description": "/src/pages/products/vegetables.html"
+   },
+   {
+      "id": 13,
+      "name": "Crevette Rouge",
+      "image": "/public/assets/images/products/Fishs/crevette_rouge.png",
+      "description": "/src/pages/products/fishs.html"
+   },
+   {
+      "id": 14,
+      "name": "Croaker Fish",
+      "image": "/public/assets/images/products/Fishs/Croaker_Fish.png",
+      "description": "/src/pages/products/fishs.html"
+   },
+   {
+      "id": 15,
+      "name": "Fresh Isolatede",
+      "image": "/public/assets/images/products/Fishs/Fresh_fishes_isolated.png",
+      "description": "/src/pages/products/fishs.html"
+   },
+   {
+      "id": 16,
+      "name": "Salmonella",
+      "image": "/public/assets/images/products/Fishs/Salmonella.png",
+      "description": "/src/pages/products/fishs.html"
+   },
+   {
+      "id": 17,
+      "name": "Octopus",
+      "image": "/public/assets/images/products/Fishs/octopus.png",
+      "description": "/src/pages/products/fishs.html"
    }
    
 ]

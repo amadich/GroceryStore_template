@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                    filteredProducts.forEach(product => {
                        const productLink = document.createElement('a');
                        productLink.href = product.description; // Assuming description contains the link
-                       productLink.target = "_blank"; // Open link in a new tab
+                       //productLink.target = "_blank"; // Open link in a new tab
                        content_products.appendChild(productLink);
 
                        const productDiv = document.createElement('div');
