@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
        /* Filter Products */
        search_input.addEventListener('input', () => {
            const searchValue = search_input.value.toLowerCase();
-           fetch('../../src/api/products.json')
+           fetch('/src/api/products.json')
                .then(response => response.json())
                .then(data => {
                    content_products.innerHTML = '';

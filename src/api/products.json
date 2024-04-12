@@ -3,97 +3,97 @@
       "id": 1,
       "name": "Apple Juice",
       "image": "/public/assets/images/products/Drinks/Apple-Juice.png",
-      "description": "/products/drinks"
+      "description": "/src/pages/products/drinks.html"
    },
    {
       "id": 2,
       "name": "kiwi Fruit Juice",
       "image": "/public/assets/images/products/Drinks/kiwi-fruit-juice.png",
-      "description": "/products/drinks"
+      "description": "/src/pages/products/drinks.html"
    },
    {
       "id": 3,
       "name": "Lemon Juice",
       "image": "/public/assets/images/products/Drinks/lemon-juice.png",
-      "description": "/products/drinks"
+      "description": "/src/pages/products/drinks.html"
    },
    {
       "id": 4,
       "name": "Orange Juice",
       "image": "/public/assets/images/products/Drinks/Orange-juice.png",
-      "description": "/products/drinks"
+      "description": "/src/pages/products/drinks.html"
    },
    {
       "id": 5,
       "name": "Strawberry Juice",
       "image": "/public/assets/images/products/Drinks/Strawberry-juice.png",
-      "description": "/products/drinks"
+      "description": "/src/pages/products/drinks.html"
    },
    {
       "id": 6,
       "name": "Orange",
       "image": "/public/assets/images/products/Grains/an_Orange.png",
-      "description": "/products/grains"
+      "description": "/src/pages/products/grains.html"
    },
    {
       "id": 7,
       "name": "Apple",
       "image": "/public/assets/images/products/Grains/apples.png",
-      "description": "/products/grains"
+      "description": "/src/pages/products/grains.html"
    },
    {
       "id": 8,
       "name": "Banana",
       "image": "/public/assets/images/products/Grains/banana.png",
-      "description": "/products/grains"
+      "description": "/src/pages/products/grains.html"
    },
    {
       "id": 9,
       "name": "Blueberry",
       "image": "/public/assets/images/products/Grains/blueberry.png",
-      "description": "/products/grains"
+      "description": "/src/pages/products/grains.html"
    },
    {
       "id": 10,
       "name": "Citron",
       "image": "/public/assets/images/products/Grains/citron.png",
-      "description": "/products/grains"
+      "description": "/src/pages/products/grains.html"
    },
    {
       "id": 11,
       "name": "Strawberry",
       "image": "/public/assets/images/products/Grains/Strawberry.png",
-      "description": "/products/grains"
+      "description": "/src/pages/products/grains.html"
    },
    {
       "id": 12,
       "name": "Carrot",
       "image": "/public/assets/images/products/Vegetables/carrot.png",
-      "description": "/products/vegetables"
+      "description": "/src/pages/products/vegetables.html"
    },
    {
       "id": 13,
       "name": "Onion",
       "image": "/public/assets/images/products/Vegetables/onion.png",
-      "description": "/products/vegetables"
+      "description": "/src/pages/products/vegetables.html"
    },
    {
       "id": 14,
       "name": "Pepper",
       "image": "/public/assets/images/products/Vegetables/pepper.png",
-      "description": "/products/vegetables"
+      "description": "/src/pages/products/vegetables.html"
    },
    {
       "id": 15,
       "name": "Potatos",
       "image": "/public/assets/images/products/Vegetables/Potatos.png",
-      "description": "/products/vegetables"
+      "description": "/src/pages/products/vegetables.html"
    },
    {
       "id": 12,
       "name": "Tomatoes",
       "image": "/public/assets/images/products/Vegetables/tomatoes.png",
-      "description": "/products/vegetables"
+      "description": "/src/pages/products/vegetables.html"
    }
    
 ]
